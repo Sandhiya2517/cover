@@ -1,114 +1,137 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-<meta name="covermap"
-content="width=device-width,initial-sacale=1.0">
-<style>
-.bookpage{
-width:400px;
-height:600px;
-color: rgb(6, 27, 56);
-margin-left: auto;
-margin-right: auto;
-padding: 20px;
-font-family: 'Franklin Gothic Medium','Franklin Gothic Medium','Cooper Black','sans-serief';
-background-image: url(Image.png);
-background-size: cover;
-}
+    <title>Book Cover Design</title>
+    <style> 
+        .wrapper {
+            background-color:#224c98;
+            height:100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .bookpage{
+            width: 400px;
+            height: 600px;
+            color: black;
+            padding: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-image:url(Image.png) ;
+            background-position: center;
+            background-size: cover;
+        }
+            
+        
+        .insight{
+            color: rgb(236, 243, 250);
+        
+        }
+        
+        
+        .hrstyle{
+            width: 160px;
+        }
+        .author{
+        
+            display: inline;
+            position: relative;
+            color: rgb(10, 77, 77);
+            top: 270px;
+            font-family: Georgia;
+            font-size: medium;
+            padding-bottom: 20px;
+        }
+        .booktitle{
+            color: rgb(251, 50, 0);
+            font-family: 'Courier New', Courier, monospace, bold;
+            font-size: larger;
+            text-align: center;
+            position: relative;
+            top: 30px;
+        
+        }
+        .id {
+            width: 400px;
+            position: relative;
+            top: 280px;
+            
+        }
+        .pub{
+            color: rgb(12, 14, 14);
+            font-size: medium;
+            position: relative;
+            top: 235px;
+            left: 330px;
+        }
+        .ed{
+            color: rgb(9, 9, 9);
+            font-size: medium;
+            font-family: Verdana;
+            position: relative;
+            top: 190px;
+        
+        }
+        .subtitle{
+            color:rgb(202, 49, 93);
+            font-family: unicorn;
+            font-size: larger;
+            position: relative;
+            top: 15px; 
 
-.insight{
-color:brown;
-}
-
-.hrstyle{
-width: 100px;
-}
-
-.author{
-display: inline;
-position: relative;
-color:crimson;
-top: 190px;
-font-family: Georgia;
-font-size: medium;
-}
-
-
-.booktitle{
-font-family:'Cooper Black';
-color:rebeccapurple;
-font-size: Medium;
-text-align: center;
-position: relative;
-top: 30px;
-}
-
-.id{
-width:400px;
-position: relative;
-top:180px;
-}
-
-.pub{
-font-size:medium;
-position: relative;
-color:chocolate;
-top:155px;
-left:330px;
-}
-
-.ed{
-color:blue;
-font-size: medium;
-font-family: 'Cooper Black';
-position:relative;
-top:85px;
-}
-
-.subtitle{
-font-family:'Lemon Bold';
-font-size:large;
-position: relative;
-top: 25px;
-}
-
-
-.mypic{
-position:relative;
-top:140px;
-left:260px;
-width:100px;
-height:100px;
-background-size:cover;
-}
-
-</style>
-<title>Cover Page</title>
+        }
+        .subtitle2{
+            color: rgb(68, 88, 30);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+            position: relative;
+            top: 250px;
+        }
+        .mypic{
+            position: relative;
+            top: 250px;
+            left: 300px;
+            width: 90px;
+            height: 80px;
+            background-size: contain;
+        }
+    </style>
 </head>
 <body>
-<div class="bookpage">
-<div class="insight">
-  SEC INSIGHT
-</div>
-<div class="booktitle">
-<h1>FUNDAMENTAL OF WEB APPLICATION DEVELOPMENT</h1></div>
-<div class="subtitle">
-FROM HTML AND CSS
-</div>
-<div class="mypic">
-<img src="mypic.png" width="130" height="145" alt="">
-</div>
-<div class="id">
-<hr style="color:rgb(255, 255, 255);">
-</div>
-<div class="author">
-<p><b>M.Sandhiya</b></p>
-</div>
-<div class="pub">
-    SEC
-</div>
-<div class="ed">
-<b>Tenth Edition</b>
-</div>
-</div>
+    <div class="wrapper">
+        <div class="bookpage">
+            <div class="insight">
+                <b>WEB DESIGNING</b>
+            </div>
+            <div class="hrstyle">
+                <hr style="color:blanchedalmond">
+            </div>
+            <div class="booktitle">
+                <h1><b>INTRODUCING WEB DESIGNING</b></h1></div>
+            <div class="subtitle">
+                 <b> FOR BEGINNERS </b> 
+            <div class="subtitle2">
+                <b>>> Frontend designing</b><br>
+                <b>>> Backend designing</b><br>
+                <b>>> Full-stack designing</b><br>
+            </div>     
+            </div>
+            <div class="mypic">
+                <img src="mypic.png" width="100" height="100" >
+            </div>
+            <div class="id">
+                <hr style="color:rgb(68, 29, 74)">
+            </div>
+            <div class="author">
+               <p><b>Sandhiya M(24011750)</b></p>
+            </div>
+            <div class="pub">
+                SEC 28'
+            </div>
+            <div class="ed">
+              <b>Tenth Edition</b>
+        </div>
+    </div>
 </body>
 </html>
